@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cartão de Visita</string>
+    <string name="txt_business_card_title">Cartões de Visita</string>
+    <string name="add_card_button_text">Adicionar</string>
+    <string name="cd_add_icon">Ícone de adição</string>
+</resources>
