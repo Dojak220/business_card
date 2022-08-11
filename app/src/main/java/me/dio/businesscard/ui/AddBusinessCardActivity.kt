@@ -2,11 +2,11 @@ package me.dio.businesscard.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import me.dio.businesscard.databinding.ActivityMainBinding
+import me.dio.businesscard.databinding.ActivityAddBusinessCardBinding
 
-class MainActivity : AppCompatActivity() {
+class AddBusinessCardActivity : AppCompatActivity() {
 
-    private val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
+    private val binding by lazy { ActivityAddBusinessCardBinding.inflate(layoutInflater) }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)

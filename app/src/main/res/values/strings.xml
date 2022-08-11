@@ -3,4 +3,12 @@
     <string name="txt_business_card_title">Business Cards</string>
     <string name="add_card_button_text">Add card</string>
     <string name="cd_add_icon">Add icon</string>
+    <string name="txt_new_card">New Card</string>
+    <string name="label_name">Name</string>
+    <string name="label_phone">Phone</string>
+    <string name="label_email">Email</string>
+    <string name="label_company">Company</string>
+    <string name="label_color">Color</string>
+    <string name="label_confirm">Confirm</string>
+    <string name="close_icon">Close icon</string>
 </resources>
