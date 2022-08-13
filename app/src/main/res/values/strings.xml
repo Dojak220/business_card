@@ -12,4 +12,5 @@
     <string name="label_confirm">Confirm</string>
     <string name="close_icon">Close icon</string>
     <string name="label_show_sucess">Card inserted successfully</string>
+    <string name="label_share">Share</string>
 </resources>

@@ -13,4 +13,5 @@
     <string name="label_confirm">Confirmar</string>
     <string name="close_icon">Ícone de fechar</string>
     <string name="label_show_sucess">Cartão inserido com sucesso</string>
+    <string name="label_share">Compartilhar</string>
 </resources>

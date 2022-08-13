@@ -6,6 +6,7 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import me.dio.businesscard.App
 import me.dio.businesscard.databinding.ActivityMainBinding
+import me.dio.businesscard.util.Image
 
 class MainActivity : AppCompatActivity() {
 
@@ -13,7 +14,6 @@ class MainActivity : AppCompatActivity() {
     private val mainViewModel: MainViewModel by viewModels {
         MainViewModelFactory((application as App).repository)
     }
-
     private val adapter by lazy { BusinessCardAdapter() }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,6 +28,10 @@ class MainActivity : AppCompatActivity() {
         binding.fabAddCardButton.setOnClickListener {
             val intent = Intent(this@MainActivity, AddBusinessCardActivity::class.java)
             startActivity(intent)
+        }
+
+        adapter.listenerShare = { card ->
+            Image.share(this@MainActivity, card)
         }
     }
 

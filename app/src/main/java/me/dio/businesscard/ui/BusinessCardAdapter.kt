@@ -14,7 +14,7 @@ import me.dio.businesscard.databinding.BusinessCardItemBinding
 class BusinessCardAdapter :
     ListAdapter<BusinessCard, BusinessCardAdapter.ViewHolder>(DiffCallback()) {
 
-    val listenerShare: (View) -> Unit = {}
+    var listenerShare: (View) -> Unit = {}
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val inflater = LayoutInflater.from(parent.context)
@@ -42,14 +42,6 @@ class BusinessCardAdapter :
                 listenerShare(it)
             }
         }
-
-//        companion object {
-//            fun create(parent: ViewGroup): WordViewHolder {
-//                val view: View = LayoutInflater.from(parent.context)
-//                    .inflate(R.layout.recyclerview_item, parent, false)
-//                return WordViewHolder(view)
-//            }
-//        }
     }
 }
 
