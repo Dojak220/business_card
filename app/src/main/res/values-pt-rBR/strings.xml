@@ -12,4 +12,5 @@
     <string name="label_color">Cor</string>
     <string name="label_confirm">Confirmar</string>
     <string name="close_icon">Ícone de fechar</string>
+    <string name="label_show_sucess">Cartão inserido com sucesso</string>
 </resources>
